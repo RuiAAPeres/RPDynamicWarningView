@@ -111,7 +111,7 @@ static CGFloat RPDefaultElasticity = 0.6f;
 - (void)dynamicAnimatorDidPause:(UIDynamicAnimator*)animator
 {
     [_pushBehavior setMagnitude:RPDefaultMagnitude];
-    [_pushBehavior setActive:TRUE];
+    [_pushBehavior setActive:YES];
 }
 
 #pragma mark - UI Setup
@@ -167,7 +167,7 @@ static CGFloat RPDefaultElasticity = 0.6f;
     _animator.delegate = nil;
     
     [_pushBehavior setMagnitude:RPGetOutOfMyWayMagnitude];
-    [_pushBehavior setActive:TRUE];
+    [_pushBehavior setActive:YES];
     
     if (completionBlock) completionBlock(self);
 }
