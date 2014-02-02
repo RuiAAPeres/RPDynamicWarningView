@@ -13,7 +13,7 @@
 
 - (void)removeDynamicLocationView:(RPDynamicWarningView *)dynamic
 {
-    [dynamic stopDynamicLocationWithCompletionBlock:nil];
+    //[dynamic stopDynamicLocationWithCompletionBlock:nil];
 }
 
 - (void)viewDidAppear:(BOOL)animated
