@@ -5,5 +5,5 @@ A simple warning view that takes advantage of UIKit Dynamics. On this demo a war
 It would be like this:
 
 
-<img src="https://raw.github.com/RuiAAPeres/RPDynamicWarningView/blob/master/demo.gif">
-
+<img src="https://raw.github.com/RuiAAPeres/RPDynamicWarningView/master/demo.gif">
+          
