@@ -27,6 +27,12 @@ If you want to remove it gracefully, for example when you aquire location, you c
 
 The `completionBlock` will allow you to add specific logic when the animation is done (for example remove the view altogether) 
 
+Installing
+---------
+You can use by downloading the demo, or use cocoapods:
+
+`pod 'RPDynamicWarningView', '~> 1.0'
+
 Credits
 ---------
 
