@@ -31,7 +31,7 @@ Installing
 ---------
 You can use by downloading the demo, or use cocoapods:
 
-`pod 'RPDynamicWarningView', '~> 1.0'
+`pod 'RPDynamicWarningView', '~> 1.0'`
 
 Credits
 ---------
