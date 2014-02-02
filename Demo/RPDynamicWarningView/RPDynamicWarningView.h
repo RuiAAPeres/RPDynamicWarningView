@@ -29,8 +29,8 @@
 - (instancetype)initWithText:(NSString *)text imageName:(NSString *)imageName;
 
 // Method that should be called to remove this view gracefully
-// It's also provided a completionBlock, that is of course optinal. A reference to the DynamicLocationView
-// Is passed on it, so you can remove it or hide it.
+// It's also provided a completionBlock, that is, of course, optional. A reference to the DynamicLocationView
+// Is passed as well, so you can remove/hide it.
 - (void)stopDynamicLocationWithCompletionBlock:(void(^)(RPDynamicWarningView *dynamicLocationView))completionBlock;
 
 @end
