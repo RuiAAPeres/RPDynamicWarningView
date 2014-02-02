@@ -15,10 +15,14 @@ Usage
 
 You can use the following method to initate your `RPDynamicWarningView`:
 
-        - (instancetype)initWithText:(NSString *)text imageName:(NSString *)imageName;
+```objective-c
+- (instancetype)initWithText:(NSString *)text imageName:(NSString *)imageName;
+```
 
 If you want to remove it gracefully, for example when you aquire location, you can use the following method:
 
-        - (void)stopDynamicLocationWithCompletionBlock:(void(^)(RPDynamicWarningView *dynamicLocationView))completionBlock;
+```objective-c
+- (void)stopDynamicLocationWithCompletionBlock:(void(^)(RPDynamicWarningView *dynamicLocationView))completionBlock;
+```
 
 The `completionBlock` will allow you to add specific logic when the animation is done (for example remove the view altogether) 
