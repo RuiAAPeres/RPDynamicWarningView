@@ -10,7 +10,6 @@
 		C733432F189EAACE002E6993 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C733432E189EAACE002E6993 /* Foundation.framework */; };
 		C7334331189EAACE002E6993 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7334330189EAACE002E6993 /* CoreGraphics.framework */; };
 		C7334333189EAACE002E6993 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7334332189EAACE002E6993 /* UIKit.framework */; };
-		C7334339189EAACE002E6993 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7334337189EAACE002E6993 /* InfoPlist.strings */; };
 		C733433B189EAACE002E6993 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C733433A189EAACE002E6993 /* main.m */; };
 		C733433F189EAACE002E6993 /* RPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C733433E189EAACE002E6993 /* RPAppDelegate.m */; };
 		C7334342189EAACE002E6993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7334340189EAACE002E6993 /* Main.storyboard */; };
@@ -27,7 +26,6 @@
 		C7334330189EAACE002E6993 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C7334332189EAACE002E6993 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C7334336189EAACE002E6993 /* Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo-Info.plist"; sourceTree = "<group>"; };
-		C7334338189EAACE002E6993 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C733433A189EAACE002E6993 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C733433C189EAACE002E6993 /* Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Prefix.pch"; sourceTree = "<group>"; };
 		C733433D189EAACE002E6993 /* RPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPAppDelegate.h; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				C7334336189EAACE002E6993 /* Demo-Info.plist */,
-				C7334337189EAACE002E6993 /* InfoPlist.strings */,
 				C733433A189EAACE002E6993 /* main.m */,
 				C733433C189EAACE002E6993 /* Demo-Prefix.pch */,
 			);
@@ -182,7 +179,6 @@
 			files = (
 				C7334347189EAACE002E6993 /* Images.xcassets in Resources */,
 				C733436D189EAADA002E6993 /* RPDynamicWarningView.xib in Resources */,
-				C7334339189EAACE002E6993 /* InfoPlist.strings in Resources */,
 				C7334342189EAACE002E6993 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,14 +217,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C7334337189EAACE002E6993 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C7334338189EAACE002E6993 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		C7334340189EAACE002E6993 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
