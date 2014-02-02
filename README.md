@@ -26,3 +26,8 @@ If you want to remove it gracefully, for example when you aquire location, you c
 ```
 
 The `completionBlock` will allow you to add specific logic when the animation is done (for example remove the view altogether) 
+
+Credits
+---------
+
+[Henrique Macedo](https://twitter.com/henrikemacedo) is the designer who created the marker image and the overall UI Design for this particular view (notice the letter pressing, as well).
