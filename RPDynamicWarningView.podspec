@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.author       = { "R. Peres" => "sauron.is.alive@gmail.com" }
   s.source       = { :git => "https://github.com/RuiAAPeres/RPDynamicWarningView.git", :tag => "1.0" }
   s.platform     = :ios, '7.0'
-  s.source_files = 'RPDynamicWarningView/RPDynamicWarningView.{h,m,xib}'
+  s.source_files = 'Demo/RPDynamicWarningView/RPDynamicWarningView.{h,m,xib}'
   s.requires_arc = true
 end 
