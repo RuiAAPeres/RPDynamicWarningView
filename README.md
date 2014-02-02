@@ -19,7 +19,7 @@ You can use the following method to initate your `RPDynamicWarningView`:
 - (instancetype)initWithText:(NSString *)text imageName:(NSString *)imageName;
 ```
 
-If you want to remove it gracefully, for example when you aquire location, you can use the following method:
+If you want to remove it gracefully, for example when you acquire location, you can use the following method:
 
 ```objective-c
 - (void)stopDynamicLocationWithCompletionBlock:(void(^)(RPDynamicWarningView *dynamicLocationView))completionBlock;
