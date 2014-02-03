@@ -6,13 +6,13 @@ Overview
 
 A simple warning view that takes advantage of UIKit Dynamic. This is inspired on the jumping icon that you would see on a Mac's dock, when the app wants to get your attention. (For example: open a project in Xcode and remove the physical project afterwards: your will see the Xcode icon jumping from the dock). 
 
-On this demo a warning is showed, because we can't find his locaiton. With `RPDynamicWarningView` it would look like this:
+On this demo a warning is showed, because we can't find the user's locaiton. With `RPDynamicWarningView` it would look like this:
 
 
 <img src="https://raw.github.com/RuiAAPeres/RPDynamicWarningView/master/demo.gif">
           
 
-You can use this project with any image and text you would like. The goal is to draw the user's attention to it, without blocking the UI in any way (avoiding `UIAlertView`).
+You can use this project with any image and text you would like. The goal is to draw the user's attention to it, without blocking the UI (avoiding `UIAlertView`).
 
 Usage
 ---------
